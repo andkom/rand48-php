@@ -1,0 +1,33 @@
+{
+  "name": "andkom/rand48",
+  "description": "A rand48 random number generator in pure PHP.",
+  "type": "library",
+  "keywords": [
+    "rand",
+    "random",
+    "rand48",
+    "rand-48"
+  ],
+  "require": {
+    "php": "^7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": ">=5.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andrei Komarov"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "AndKom\\Rand48\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AndKom\\Rand48\\Tests\\": "tests/"
+    }
+  }
+}
